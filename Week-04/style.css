@@ -1,0 +1,51 @@
+body{
+    font-family:Arial;
+    background:#111827;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.container{
+    width:450px;
+}
+
+h1{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.movie{
+    background:#1f2937;
+    padding:15px;
+    margin-top:15px;
+    border-radius:10px;
+}
+
+.delete-btn{
+    background:red;
+    margin-top:10px;
+}
